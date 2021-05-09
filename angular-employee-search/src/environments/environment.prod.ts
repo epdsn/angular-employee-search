@@ -1,9 +1,9 @@
-import { EmployeeService as MockEmployeeService } from "src/app/services/employee.mock.service";
-import { EmployeeService } from "src/app/services/employee.service";
+import { UserService as MockUserService } from "src/app/services/user.mock.service";
+import { UserService } from "src/app/services/user.service";
 
 export const environment = {
   production: true,
   providers: [
-    {provide : MockEmployeeService, useClass: EmployeeService}
+    {provide : MockUserService, useClass: UserService}
   ]
 };

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Employee } from 'src/app/models/employee.model';
-import { EmployeeService } from 'src/app/services/employee.mock.service';
+import { User } from 'src/app/models/user.model';
+import { UserService } from 'src/app/services/user.mock.service';
 
 @Component({
   selector: 'app-search',
@@ -9,16 +9,16 @@ import { EmployeeService } from 'src/app/services/employee.mock.service';
 })
 export class SearchComponent implements OnInit {
 
-  employees: Employee[];
+  users: User[];
 
-  constructor(private employeeService: EmployeeService) { }
+  constructor(private userService: UserService) { }
 
   ngOnInit(): void {
-    this.employeeService
+    this.userService
       .getEmployees()
-      .subscribe((employees) => this.employees = employees);
+      .subscribe((users) => this.users = users);
 
-      console.log(this.employees);
+      console.log(this.users);
   }
 
 }

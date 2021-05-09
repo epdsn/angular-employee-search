@@ -1,11 +1,11 @@
 <p>search works!</p>
 
-<div *ngIf="employees">
-    <div *ngFor="let employee of employees">
-        <h2>Name : {{employee.userName}}</h2>
-        <p>id : {{employee.userID}}</p>
+<div *ngIf="users">
+    <div *ngFor="let user of users">
+        <h2>Name : {{user.userName}}</h2>
+        <p>id : {{user.userID}}</p>
     </div>
 </div>
-<div *ngIf="!employees">
+<div *ngIf="!users">
     Loading employees...
 </div>
