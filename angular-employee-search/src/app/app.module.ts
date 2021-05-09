@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SearchComponent } from './pages/search/search.component';
 import { SearchResultsComponent } from './pages/search-results/search-results.component';
+import { HttpClientModule } from '@angular/common/http';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -14,9 +16,12 @@ import { SearchResultsComponent } from './pages/search-results/search-results.co
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    ...environment.providers,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
