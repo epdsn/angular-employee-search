@@ -1,30 +1,5 @@
-<div *ngIf="users">
-    <p-table 
-        [value]="users" 
-        [paginator]="true" 
-        [rows]="10" 
-        [rowsPerPageOptions]="[5,10,15,20]"
-        totalRecords="totalRecords" 
-        pageLinks="3">
-        <ng-template pTemplate="caption">
-            Users List
-              </ng-template>
-      <ng-template pTemplate="header">
-          <tr>
-              <th>ID</th>
-              <th>Name</th>
-          </tr>
-      </ng-template>
-      <ng-template pTemplate="body" let-user>
-          <tr>
-              <td>{{user.userID}}</td>
-              <td>{{user.userName}}</td>
-          </tr>
-      </ng-template>
-    </p-table>
-</div>
-<div *ngIf="!users">
-    <div class="spinner-border" role="status">
-        <span class="sr-only">Loading users...</span>
-      </div>
-</div>
+<input type="text" id="userName" placeholder="First Name" [(ngModel)]="username">
+<input type="text" id="userID" placeholder="User ID" [(ngModel)]="userid" >
+<button (click)="onClickMe()">Find User</button>
+
+<app-search-results [message]="message" [username]="username" [userid]=userid [users]=users [totalRecords]=totalRecords></app-search-results>

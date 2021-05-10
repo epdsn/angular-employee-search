@@ -1,1 +1,19 @@
-<p>search-results works!</p>
+
+<p>{{totalRecords}} users were found based on search filters</p>
+
+<div *ngIf="users">
+    <p-table [value]="users">
+      <ng-template pTemplate="header">
+          <tr>
+              <th>ID</th>
+              <th>Name</th>
+          </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-user>
+          <tr>
+              <td>{{user.userID}}</td>
+              <td>{{user.userName}}</td>
+          </tr>
+      </ng-template>
+    </p-table>
+</div>

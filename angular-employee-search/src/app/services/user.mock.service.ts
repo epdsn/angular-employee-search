@@ -10,6 +10,10 @@ export class UserService implements IUserService {
 
   users: User[] = [  
     {
+      userName : 'Jake',
+      userID : 1111
+    },
+    {
       userName : 'Bob Bobson',
       userID : 1234
     },

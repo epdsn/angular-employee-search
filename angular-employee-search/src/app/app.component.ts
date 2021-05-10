@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-employee-search';
+
+receiveUserName($event) {
+  this.receiveUserName = $event
+}
+
 }
