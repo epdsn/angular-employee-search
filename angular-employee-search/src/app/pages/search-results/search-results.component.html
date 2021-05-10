@@ -1,5 +1,5 @@
 
-<p>{{totalRecords}} users were found based on search filters</p>
+<p [hidden]="!showResults">{{totalRecords}} users were found based on search filters</p>
 
 <div *ngIf="users">
     <p-table [value]="users">

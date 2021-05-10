@@ -13,16 +13,7 @@ export class SearchResultsComponent implements OnInit {
 
   @Input() totalRecords: number;
 
-  currentValue: string;
-
-  results: string;
-
-  @Input() message : string;
-
-  @Input() username : string;
-
-  @Input() userid : number;
-
+  @Input() showResults: boolean;
 
   constructor() { }
 
