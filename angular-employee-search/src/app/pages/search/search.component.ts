@@ -11,6 +11,8 @@ export class SearchComponent implements OnInit {
 
   users: User[];
 
+  totalRecords: number;
+
   constructor(private userService: UserService) { }
 
   ngOnInit(): void {
@@ -18,7 +20,7 @@ export class SearchComponent implements OnInit {
       .getEmployees()
       .subscribe((users) => this.users = users);
 
-      console.log(this.users);
+      this.totalRecords=this.users.length;
   }
 
 }

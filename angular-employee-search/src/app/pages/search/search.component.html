@@ -1,5 +1,11 @@
 <div *ngIf="users">
-    <p-table [value]="users">
+    <p-table 
+        [value]="users" 
+        [paginator]="true" 
+        [rows]="10" 
+        [rowsPerPageOptions]="[5,10,15,20]"
+        totalRecords="totalRecords" 
+        pageLinks="3">
         <ng-template pTemplate="caption">
             Users List
               </ng-template>
