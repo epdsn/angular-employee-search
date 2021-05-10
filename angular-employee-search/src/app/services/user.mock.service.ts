@@ -16,6 +16,282 @@ export class UserService implements IUserService {
     {
       userName : 'Jane Smith',
       userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
+    },
+    {
+      userName : 'Jane Smith',
+      userID : 5678
     }
  ];
 
