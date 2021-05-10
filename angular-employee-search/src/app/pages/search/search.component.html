@@ -1,5 +1,23 @@
-<input type="text" id="userName" placeholder="First Name" [(ngModel)]="username">
-<input type="text" id="userID" placeholder="User ID" [(ngModel)]="userid" >
-<button (click)="onClickMe()">Find User</button>
+<fieldset class="row">
+    <legend>Search For User</legend>
+</fieldset>
+<div class="row">
+    <div class="col-5">
+        <input type="text" id="userName" class="form-control" placeholder="Name" [(ngModel)]="username">
+    </div>
+    <div class="col-5">
+        <input type="text" id="userID" class="form-control" placeholder="User ID" [(ngModel)]="userid" >
+    </div>
+    <div class="col-auto">
+        <button class="btn btn-primary mb-2" (click)="onClickMe()">Find User</button>
+      </div>
+  </div>
+
+
+
+
+
+
+
 
 <app-search-results [message]="message" [username]="username" [userid]=userid [users]=users [totalRecords]=totalRecords></app-search-results>

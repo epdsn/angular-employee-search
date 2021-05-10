@@ -55,7 +55,7 @@ export class SearchComponent implements OnInit {
 
     console.log("username=" + this.username + " userid=" + this.userid);
     
-    this.users = this.users.filter(x => x.userName == this.username || x.userID == this.userid);
+    this.users = this.users.filter(x => (this.username !== "" && x.userName.includes(this.username)) || x.userID == this.userid);
     this.totalRecords = this.users.length;
 
     console.log(this.results);

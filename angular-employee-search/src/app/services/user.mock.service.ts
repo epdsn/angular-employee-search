@@ -10,7 +10,7 @@ export class UserService implements IUserService {
 
   users: User[] = [  
     {
-      userName : 'Jake',
+      userName : 'Jake the snake',
       userID : 1111
     },
     {
@@ -18,285 +18,62 @@ export class UserService implements IUserService {
       userID : 1234
     },
     {
-      userName : 'Jane Smith',
+      userName : 'Elle Bartlett',
       userID : 5678
     },
     {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
+      userName : 'Lubna Fowler',
+      userID : 7892
     },
     {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
-    },
-    {
-      userName : 'Jane Smith',
-      userID : 5678
+      userName : 'Jamie-Leigh Faulkner',
+      userID : 1568
     },
     {
-      userName : 'Jane Smith',
-      userID : 5678
+      userName : 'Joseff Leal',
+      userID : 5936
     },
     {
-      userName : 'Jane Smith',
-      userID : 5678
+      userName : 'Husnain Merrill',
+      userID : 9463
     },
     {
-      userName : 'Jane Smith',
-      userID : 5678
+      userName : 'Christina Navarro',
+      userID : 2876
     },
     {
-      userName : 'Jane Smith',
+      userName : 'Tamia Robinson',
       userID : 5678
     },
     {
-      userName : 'Jane Smith',
-      userID : 5678
+      userName : 'Raisa Arias',
+      userID : 4267
     },
     {
-      userName : 'Jane Smith',
-      userID : 5678
+      userName : 'Mylo Lloyd',
+      userID : 5567
     },
     {
-      userName : 'Jane Smith',
-      userID : 5678
+      userName : 'Beatrix Bowen',
+      userID : 6590
     },
     {
-      userName : 'Jane Smith',
-      userID : 5678
+      userName : 'Cadi Dennis',
+      userID : 2376
     },
     {
-      userName : 'Jane Smith',
-      userID : 5678
+      userName : 'Sahara Bourne',
+      userID : 9637
     },
     {
-      userName : 'Jane Smith',
-      userID : 5678
+      userName : 'Waqar Sutherland',
+      userID : 9062
     },
     {
-      userName : 'Jane Smith',
-      userID : 5678
+      userName : 'Ptolemy Brandt',
+      userID : 1555
     }
+
  ];
 
   getEmployees() : Observable<User[]> {

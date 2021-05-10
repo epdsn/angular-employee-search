@@ -4,6 +4,7 @@ import { SearchResultsComponent } from './pages/search-results/search-results.co
 import { SearchComponent } from './pages/search/search.component';
 
 const routes: Routes = [
+  { path: "", pathMatch: "full", redirectTo: "search" },
   {path:  'search', component: SearchComponent},
   {path: 'search-results', component: SearchResultsComponent}
 ];
